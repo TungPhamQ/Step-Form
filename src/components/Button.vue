@@ -4,6 +4,7 @@
         <div v-if="step < 3"> 
             <button v-on:click.prevent="prevStep()" class="btn prev">Previous</button>
             <button v-on:click.prevent="nextStep()" class="btn next">Next</button><!----><!---->
+            
         </div>
         <!-- button reset + send -->
         <!-- v-if="step == 3" -->
